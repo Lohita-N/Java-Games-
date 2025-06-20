@@ -65,37 +65,6 @@ import javax.imageio.ImageIO;
 			ySpeed *= -1;
 		}
 	}
-		
-	
-	
-
-	/*public void move1(int Speedx, int Speedy)
-	{
-		System.out.println(Speedx);
-		xPos += Speedx;
-		if(xPos < 0)
-	{
-		xPos =0;
-		Speedx *= -1;
-	}
-		if(xPos >= brickPanel.WIDTH - ball.getWidth())
-		{
-			xPos = brickPanel.WIDTH - ball.getWidth();
-			Speedx *= -1;
-		}
-
-		yPos += ySpeed;
-		if(yPos < 0)
-		{
-			yPos =0;
-			Speedy *= -1;
-		}
-		if(yPos >= brickPanel.HEIGHT - ball.getHeight())
-		{
-			yPos = brickPanel.HEIGHT - ball.getHeight();
-			Speedy *= -1;
-		}
-	}*/
 	public void draw(Graphics g)
 	{
 		Graphics2D g2d = (Graphics2D) g;
